@@ -1,0 +1,59 @@
+.placements-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ede4f9;
+    padding-bottom: 40px;
+}
+
+
+.placements-heading{
+    font-size:25px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+@media screen and (min-width:768px){
+    .placements-heading{
+        font-size: 32px;
+        margin-top: 40px;
+    }
+}
+
+.underline-hr{
+    border: 2px solid purple;
+    width:120px;
+    margin-top: 10px;;
+}
+
+.placements-sub-heading{
+    font-size:22px;
+    font-weight:600;
+}
+
+@media screen and (min-width:768px){
+    .placements-sub-heading{
+        font-size: 25px;
+    }
+}
+
+.placements-description{
+    font-size: 18px;
+    font-weight: 500;
+    color:#47444b;
+    margin-top: 10px;
+}
+
+@media screen and (min-width:768px){
+    .placements-descritpion{
+        font-size:20px
+    }
+}
+
+.placements-card{
+    margin-top:30px;
+    width: 90%;
+    padding:10px;
+    margin-left: 20px;;
+}

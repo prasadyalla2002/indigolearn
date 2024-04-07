@@ -1,0 +1,112 @@
+.become-acca-section{
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width:100vw;
+    background-color: aliceblue;
+}
+
+@media screen and (min-width:768px){
+    .become-acca-section{
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top:50px;
+        padding-bottom: 60px;;
+    }
+}
+
+.become-acca-content-container{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 10vh;
+}
+
+@media screen and (min-width:768px){
+    .become-acca-content-container{
+        margin-top: 20vh;
+    }
+}
+
+.become-acca-heading{
+    color:#000000;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+@media screen and (min-width:768px){
+    .become-acca-heading{
+        font-size: 25px;
+    }
+}
+
+
+
+.become-acca-description{
+    color:#373837;
+    font-size: 15px;
+    width:90%;
+    margin-top:5px;
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+@media screen and (min-width:768px){
+    .become-acca-description{
+        margin-top: 18px;
+        font-size: 18px;
+    }
+}
+
+.become-acca-ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-left: 0px;
+    padding-left: 0;
+    margin-top: 10px;
+}
+
+.become-acca-li{
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border:none;
+    border-radius: 8px;
+    height:60px;
+    width:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-bottom: 10px;;
+}
+
+.become-acca-buttons-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.become-bcca-button{
+    background-color: red;
+    color: #ffffff;
+    border:none;
+    border-radius:8px;
+    font-weight: 500;
+    padding:10px;
+    margin-right: 10px;
+    margin-top: 12px;
+}
+
+@media screen and (min-width:768px){
+    .become-bcca-button{
+        margin-bottom: 40px;
+    }
+}
