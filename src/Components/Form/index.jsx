@@ -5,7 +5,8 @@ import './styles.css'
 const Form = () =>{
     const [isRequestedCallBack, changeState] = useState(false)
 
-    const onClickSubmit = () =>{
+    const onClickSubmit = (event) =>{
+        event.preventDefault()
         changeState(true)
     }
 
@@ -25,7 +26,7 @@ const Form = () =>{
 
     return(
         <div className="contact-us-form-container">
-           {isRequestedCallBack ? <p>Thank You</p> : renderForm()}
+           {isRequestedCallBack ? <p className="thank-you-text">Thank You</p> : renderForm()}
         </div>
     )
 }
